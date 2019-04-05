@@ -1,0 +1,160 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url("img/84195.jpg");
+  background-size:cover; /* Encajamos la imagen al 100% del ancho */
+  background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+
+}
+
+.contenedor {
+	width:100%;
+	max-width:1300px;
+	margin:auto;
+}
+
+.texto {
+	color:#fff;
+	position:relative;
+	padding:150px 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+.texto h2, .texto p {
+	background: rgba(0, 0, 0,.3);
+	display:inline-block;
+	padding:10px 20px;
+}
+
+.texto h2 {
+	font-size:40px;
+	letter-spacing: 2.5px;
+	font-weight: normal;
+}
+
+.texto p {
+	font-size:12px;
+	letter-spacing: 2 px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.principal {
+	position:relative;
+	color:#fff;
+}
+
+.principal article p {
+	margin-bottom: 20px;
+	line-height:24px;
+	font-family:helvetica, arial, sans-serif;
+}
+
+.principal article .fecha {
+	color:#000;
+}
+
+.btn{
+	border-radius: 3px;
+	display: inline-block;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.btn-green{
+	color: white;
+	background-color: #3CC93F;
+}
+.btn-green:hover{
+	background-color: #119478;
+}
+.btn-green:active{
+	background-color: #29962A;
+}
+
+form{
+			background-color:#FFF;
+			border-radius: 10px;
+			color: #999;
+			font-size: 0.8em;
+			padding: 50px;
+			margin:  auto;
+			width: 380px;
+		}
+		input, textarea{
+			border: 0;
+			outline: none;
+			width: 290px;
+			height: 50px;
+
+		}
+		.field{
+			border: solid 1px #ccc;
+			padding: 10px;
+
+		}
+		.field:focus{
+			border-color: #18A383;
+		}
+		.center-content{
+			text-align: center;
+		}
+		header{
+		width: 100%;
+		overflow: hidden;
+		background-color: rgba(13, 72, 121, 0.8);
+		margin-bottom: 20px;
+		}
+
+		.centro
+		{
+		  width: 90%;
+		  max-width: 1000px;
+		  margin: auto;
+		  overflow: hidden;
+		}
+
+		header .logo
+		{
+		  color: #f2f2f2;
+		  font-size: 50px;
+		  line-height: 100px;
+		  float: left;
+		}
+		header nav
+		{
+		  float: right;
+		  line-height: 100px;
+		}
+		header nav a
+		{
+		  display: inline-block;
+		  color: #f2f2f2;
+		  text-decoration: none;
+		  padding: 10px 20px;
+		  line-height: normal;
+		  font-size: 15px;
+		  font-weight: bold;
+		  -webkit-transition: all 800ms ease;
+		  -o-transition: all 800ms ease;
+		  transition: all 800ms ease;
+		    border-radius: 50px;
+		}
+		header nav a:hover
+		{
+		  background-color: #000;
+
+		}
+		.logos
+		{
+		width: 200px;
+		height: 200px;
+
+		}

@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url("img/268765.jpg");
+  background-size:cover; /* Encajamos la imagen al 100% del ancho */
+  background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+
+}
+
+#body2{
+  background: url("img/21.jpg");
+  background-size:cover; /* Encajamos la imagen al 100% del ancho */
+  background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+
+}
+canvas{
+
+  background:  #000;
+
+
+}
+
+
+header{
+width: 100%;
+overflow: hidden;
+background-color: rgba(13, 72, 121, 0.8);
+margin-bottom: 20px;
+}
+
+.centro
+{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .logo
+{
+  color: #f2f2f2;
+  font-size: 50px;
+  line-height: 100px;
+  float: left;
+}
+header nav
+{
+  float: right;
+  line-height: 100px;
+}
+header nav a
+{
+  display: inline-block;
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-transition: all 800ms ease;
+  -o-transition: all 800ms ease;
+  transition: all 800ms ease;
+    border-radius: 50px;
+}
+header nav a:hover
+{
+  background-color: #000;
+
+}
+.logos
+{
+width: 200px;
+height: 200px;
+
+}
+article
+{
+color: #ffffff;
+background-color: rgba(0, 0, 0, 0.76);
+font-size:23px;
+}
+article h1
+{
+  text-align: center;
+}
+article p{
+  text-align: center;
+color: #f2f2f2}
+.logos2
+{
+  width: 220px;
+  height: 175px;
+}
+MARQUEE{
+  color: #f2f2f2;
+}
